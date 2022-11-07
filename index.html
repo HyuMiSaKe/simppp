@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Los Simpson</title>
+    <link rel="shortcut icon" href="Img/luna icon.ico" type="icono">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <div>
+        <button onclick="cambiar();"> Otro 🔀</button></p></b></a>
+    </div>
+    
+<script type="text/javascript">
+ 
+function rand(n){
+ return(Math.floor(Math.random() * n + 1 ));
+}
+ 
+var click_img = new Array();
+click_img[0] = "img/bart.png";
+click_img[1] = "img/burns.png";
+click_img[2] = "img/homero.png";
+click_img[3] = "img/maggie.png";
+click_img[4] = "img/marge.png";
+click_img[5] = "img/martin.png";
+click_img[6] = "img/maude.png";
+click_img[7] = "img/santa.png";
+click_img[8] = "img/milhouse.png";
+click_img[9] = "img/spiderman.png";
+
+function cambiar(){
+document.getElementById("click").src = click_img[rand(10)-1];
+}
+ 
+</script>
+</head>
+<body>
+<p><img id="click" alt="" src="ouch.png" /></p>
+</body>
+</html>

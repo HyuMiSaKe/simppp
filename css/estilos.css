@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 30px;
+}
+
+body{
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(../img/los\ simpson.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button{
+    border: none;
+    background-color: #f0ee9c;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Indie Flower';
+    cursor: pointer;
+    background-color: rgb(255, 230, 0);
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 1.3s;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    left:0%;
+    right: 0ch;
+    top:-8cm;
+    bottom: 0cm;
+    height: 50px;
+    border-radius: 50px;
+    width: 33.33%;
+    
+}
+
+
+button:hover {
+  outline: none;
+  background-color: #c59948;
+  color: rgb(255, 255, 255);
+}
+
+img{
+   width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    left:0%;
+    right: 0ch;
+    top:-4cm;
+    bottom: 0cm;
+}
